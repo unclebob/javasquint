@@ -55,4 +55,16 @@ public class squintTest {
   private List<Integer> squint(int n) {
     return take(n, squaresOf(integers()));
   }
+
+  @Test
+  public void infinteIntegers() throws Exception {
+    int counter = 1;
+    int n = 0;
+    for (int i : new Integers()) {
+      assertEquals(counter++, i);
+      if (i == 1000) {
+        break;
+      }
+    }
+  }
 }
