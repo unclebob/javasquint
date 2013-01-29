@@ -59,10 +59,6 @@ public class squintTest {
   @Test
   public void infinteIntegers() throws Exception {
     int counter = 1;
-<<<<<<< HEAD
-    int n = 0;
-=======
->>>>>>> added infinite integer test
     for (int i : new Integers()) {
       assertEquals(counter++, i);
       if (i == 1000) {
